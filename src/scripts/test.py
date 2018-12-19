@@ -14,4 +14,4 @@ def fib():
 if __name__ == "__main__":
     print "this is a test"
     print fib()
-    print "hook worked"
+    print "hook works"
