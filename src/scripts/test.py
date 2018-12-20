@@ -15,7 +15,7 @@ def epoch_fib_count():
     while prev[-1] < t:
         n = prev[-1] + prev[-2]
         count += 1
-    prev[0], prev[1] = prev[1], n
+        prev[0], prev[1] = prev[1], n
     return count, n
 
 if __name__ == "__main__":
